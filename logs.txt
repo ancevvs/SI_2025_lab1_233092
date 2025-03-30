@@ -1,0 +1,15 @@
+*   5c8469b Merge branch 'master' of https://github.com/ancevvs/SI_2025_lab1_233092
+|\  
+| *   5183d04 Merge pull request #12 from ancevvs/5-filter-tasks-by-category
+| |\  
+| | * 3ffa964 Implement filterByCategory
+| * |   9a872f9 Merge pull request #10 from ancevvs/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * a9c55b7 Implement removeTask
+| |/  
+* / de3618e Implement sortTasksByName
+|/  
+* bb3f87e Add starter code
+* 4eacb16 Initial commit

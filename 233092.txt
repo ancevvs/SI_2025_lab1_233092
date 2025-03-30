@@ -1,0 +1,40 @@
+mkdir SI_2025_lab1_INDEX
+cd SI_2025_lab1_INDEX
+git init
+
+git remote add origin https://github.com/ancevvs/SI_2025_lab1_233092.git
+
+git add README.md
+
+git commit -m "Initial commit"
+
+git add SI2025Lab1Main.java
+
+git commit -m "Add starter code"
+
+git branch -M master
+
+git push -u origin master
+
+Vtor del:
+
+git fetch origin
+
+git checkout 1-remove-a-task-by-name
+git add .
+git commit -m "Implement removeTaskByName"
+git push -u origin 1-remove-a-task-by-name
+
+git checkout  3-list-tasks-sorted-by-name
+git add .
+git commit -m "Implement listTasksSortedByName"
+git push -u origin 3-list-tasks-sorted-by-name
+
+git checkout  5-filter-tasks-by-category
+git add .
+git commit -m "Implement filterTasksByCategory"
+git push -u origin 5-filter-tasks-by-category
+
+git checkout master
+git merge 3-list-tasks-sorted-by-name
+git push origin master
